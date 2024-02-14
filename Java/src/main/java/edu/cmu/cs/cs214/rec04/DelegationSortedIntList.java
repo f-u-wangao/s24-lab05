@@ -12,7 +12,7 @@ package edu.cmu.cs.cs214.rec04;
 
 public class DelegationSortedIntList implements IntegerList {
     private int totalAdded = 0;
-    private IntegerList list = new SortedIntList();
+    private SortedIntList list = new SortedIntList();
 
     public DelegationSortedIntList() {
     }
